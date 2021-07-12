@@ -1,0 +1,93 @@
+form
+{
+    line-height: 2;
+}
+span
+{
+    color: red;
+
+    
+}
+.container
+{
+    margin: 2% auto 2% auto;
+}
+.txt-center {
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.satisfylabel1
+{
+    text-align: left;
+}
+.col-sm-2
+{
+    line-height: 2;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    
+}
+
+#row1,#row3,#row4,#row6
+{
+    background-color: #F1F1F1;
+}
+.satisfylabel
+{
+    text-align: left;
+}
+.col-sm-3
+{
+    padding-bottom: 2%;
+}
+.col-sm-6
+{
+    padding-bottom: 2%;
+}
+.how
+{
+    padding-top: 2%;
+}
+.addcomm
+{
+    padding-top: 2%;
+}
